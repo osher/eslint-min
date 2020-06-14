@@ -1,0 +1,31 @@
+{
+  "name": "eslint-min",
+  "version": "0.6.0",
+  "description": "rules for maximum impact and minimalist code",
+  "files": [
+    "index.js",
+    ".eslintrc.yaml"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osher/eslint-min.git"
+  },
+  "author": "Osher E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osher/eslint-min/issues"
+  },
+  "homepage": "https://github.com/osher/eslint-min#readme",
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  },
+  "scripts": {
+    "test": "node test",
+    "cover": "echo 'no coverage in this project'",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
