@@ -2,7 +2,9 @@ env:
   commonjs: true
   es6: true
   node: true
+root: true
 extends: 'eslint:recommended'
+
 globals:
   describe: readonly
   it: readonly
