@@ -186,7 +186,7 @@ rules:
   no-return-await: error
   no-script-url: error
   no-self-compare: error
-  no-sequences: error
+  no-sequences: 'off'
   no-setter-return: error
   no-shadow: 'off'
   no-spaced-func: error
